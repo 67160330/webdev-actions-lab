@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8">
@@ -7,12 +7,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
-    <h1>My Web Development Lab</h1>
-    <p>ชื่อ: ณัฏฐชัย ดีชัยยะ | รหัสนิสิต: 67160330</p>
-    <p id="status">Ready to deploy</p>
-    <button id="helloBtn">Say Hello</button>
-  </main>
+  <div class="container">
+    <header>
+      <h1>My Web Development Lab</h1>
+      <p>ชื่อ: ณัฏฐชัย ดีชัยยะ | รหัสนิสิต: 67160330</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p>สวัสดีครับ นิสิตผู้พัฒนาเว็บไซต์ที่กำลังศึกษาเรื่อง Git, GitHub Actions และ Continuous Deployment (CI/CD)</p>
+    </section>
+
+    <!-- ส่วนที่ 2: Skills -->
+    <section class="card">
+      <h2>Skills</h2>
+      <ul style="text-align: left; display: inline-block;">
+        <li>HTML5 / CSS3 / JavaScript</li>
+        <li>Git & GitHub Actions Workflow</li>
+        <li>GitHub Pages Static Deployment</li>
+      </ul>
+    </section>
+
+    <!-- ส่วนที่ 3: Contact -->
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: 67160330@go.buu.ac.th</p>
+      <p id="status">Ready to deploy</p>
+      <button id="helloBtn">Say Hello</button>
+    </section>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
